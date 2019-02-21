@@ -12,13 +12,13 @@
         android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="300dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="7dp"
         android:src="@drawable/kanan"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="101dp"
-        android:layout_height="158dp"
+        android:layout_width="89dp"
+        android:layout_height="155dp"
         android:layout_marginLeft="220dp"
         android:layout_marginTop="75dp"
         android:src="@drawable/kiri" />
@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="200dp"
+        android:textColor="#515151"
         android:text="Compare,\nTravel, Save money."
         android:textSize="28dp" />
 
@@ -84,6 +85,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
+
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp">
@@ -97,6 +99,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="Don't have account? Create it!"
+            android:textColor="#515151"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
